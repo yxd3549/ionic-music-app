@@ -10,20 +10,21 @@
 <ion-content padding>
   <ion-row>
     <ion-col>
-      <ion-button color="danger" shape="round">
+      <ion-button color="danger" shape="round" (click)="stopMusic()">
         <ion-icon name="square"></ion-icon>
       </ion-button>
     </ion-col>
     <ion-col>
-      <ion-button color="success" shape="round">
+      <ion-button color="success" shape="round" (click)="playMusic()">
         <ion-icon name="play"></ion-icon>
       </ion-button>
     </ion-col>
     <ion-col>
-      <ion-button color="tertiary" shape="round">
+      <ion-button color="tertiary" shape="round" (click)="pauseMusic()">
         <ion-icon name="pause"></ion-icon>
       </ion-button>
     </ion-col>
   </ion-row>
 </ion-content>
+
 
